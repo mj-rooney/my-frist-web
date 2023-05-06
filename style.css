@@ -224,3 +224,56 @@ button:hover{
     color: #2d72fc;
     font-weight: 800;
 }
+.blog{
+    margin: 80px 0;
+}
+.blog h1{
+    text-align: center;
+    padding: 20px 0;
+}
+.blog p{
+    text-align: center;
+    padding: 0 80px ;
+}
+.blog-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+
+}
+.blog-col{
+    flex-basis: 30%;
+    width:384px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px #888;
+    margin: 0 20px;
+}
+.blog-col img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog-col ul img{
+    height: 20px ;
+    width: 20px ;
+    background-color: #000000;
+}
+.blog-col ul{
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 20px ;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-col h4{
+    text-align: left;
+    padding: 20px;
+}
+.blog-col p{
+    text-align: left;
+    margin-left: -60px;
+}
+.blog-col button{
+    padding: 20px ;
+}
